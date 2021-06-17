@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <title>HTML PAGE</title>
 </head>
-<body>
+
+<body style="background-color: turquoise;">
     <h1>HTML FORM</h1>
-    <form>
+    <form style="border: 5px solid black;">
 <div>
+    <br>
         <label for="firstname">First Name : </label>
         <input type="text">
         <br>
@@ -24,14 +26,14 @@
     <br>
     <div>
         
-        <label for="email">email id : </label>
+        <label for="email">Email Id : </label>
         <input type="email">
         <br>
     </div>
 <br>
-<br>
-<br>
 
+<div>D.O.B :  <input type="date"></div>
+<br>
 <div>
         <label> GENDER</label>
         <br>
@@ -43,14 +45,33 @@
 <br>
 
 
+
+    </div>
+
+    <div>
+        <label for="CAR">CAR</label>
+        <select name="car" id="CAR">
+            <option value="swift">BMW</option>
+            <option value="audi">AUDI</option>
+            <option value="merc">MERCEDES</option>
+            <option value="fer">FERRARI</option>
+        </select>
+    </div>
+<br>
+
+<div>
+
+    Write About Yourself: <br> <textarea name="Text" id="text" cols="90" rows="10"></textarea> 
+</div>
+    <div>
+        
     <button type="submit">SUBMIT
        
     </button> 
 
-
         <button type="reset">RESET</button>
-
     </div>
     </form>
+    
 </body>
 </html>
